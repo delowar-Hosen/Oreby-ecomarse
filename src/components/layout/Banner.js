@@ -55,13 +55,13 @@ const Banner = () => {
     <div>
       <Slider {...settings}>
         <Link to="#">
-          <Images imagesrc="assests/banner.png" />
+          <Images className="block outline-0" imagesrc="assests/banner.png" />
         </Link>
         <Link to="#">
-          <Images imagesrc="assests/banner.png" />
+          <Images className="block outline-0" imagesrc="assests/banner.png" />
         </Link>
         <Link to="#">
-          <Images imagesrc="assests/banner.png" />
+          <Images className="block outline-0" imagesrc="assests/banner.png" />
         </Link>
       </Slider>
     </div>
