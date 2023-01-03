@@ -7,8 +7,8 @@ import Flex from "./Flex";
 
 const Bannerbottom = () => {
   return (
-    <div className="bg-[#F0F0F0] py-7 ">
-      <Container>
+    <div className="bg-[#F0F0F0]">
+      <Container className="py-7">
         <Flex className="flex justify-between">
           <div>
             <p className="flex  items-center">

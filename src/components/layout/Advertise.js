@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 
 const Advertise = () => {
   return (
-    <div className="bg-[#F2F2F2] pt-[140px] pb-[128]">
-      <Container>
+    <div className=" pt-[140px] pb-[128]">
+      <Container className="bg-[#F2F2F2]">
         <Flex className="flex">
           <div className="max-w-2/4 mr-10 h-auto">
             <Link to="#">

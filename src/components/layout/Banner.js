@@ -52,7 +52,7 @@ const Banner = () => {
     ),
   };
   return (
-    <div>
+    <div className="mx-auto w-full">
       <Slider {...settings}>
         <Link to="#">
           <Images className="block outline-0" imagesrc="assests/banner.png" />
